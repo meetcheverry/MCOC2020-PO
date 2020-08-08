@@ -39,7 +39,7 @@
 
 # Desempeño MATMUL
 
-![Alt Text](Figure_1.png)
+<img src="/Figure_1.png">
 
 * ¿Como difiere del gráfico del profesor/ayudante?
  * El el grafico obtenido se puede notar que aumenta mucho mas el tiempo a medida que aumentan las dimensiones de la matriz
