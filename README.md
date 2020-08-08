@@ -53,6 +53,6 @@
   * 1.14
  * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
  
-![Processor_performance](/proce.png)
+![Processor_performance](/proce.jpg)
 
   * Se utilizan 4 procesadores
