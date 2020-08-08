@@ -38,7 +38,9 @@
 * Proveedor de internet: Entel
 
 # Desempeño MATMUL
+
 <img src="./figure_1.png">
+
 * ¿Como difiere del gráfico del profesor/ayudante?
  * El el grafico obtenido se puede notar que aumenta mucho mas el tiempo a medida que aumentan las dimensiones de la matriz
 * ¿A qué se pueden deber las diferencias?
