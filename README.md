@@ -38,4 +38,15 @@
 * Proveedor de internet: Entel
 
 # Desempeño MATMUL
-
+* ¿Como difiere del gráfico del profesor/ayudante?
+ * El el grafico obtenido se puede notar que aumenta mucho mas el tiempo a medida que aumentan las dimensiones de la matriz
+* ¿A qué se pueden deber las diferencias?
+ * Esto puede deberse a las distintas caracteristicas de cada ordenador, al tener distintos procesadores y memoria se pueden obtener distintos resultados
+* El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+ * Esto puede deberse a que al medir memoria se esta evaluando el almacenamiento ocupado al desarrollar este ejercicio(no depenede de la operacion para obtener el resultado), mientras que el tiempo depende de la cantidad de operaciones que se deben realizar(al aumentar las dimensiones aumenta exponencialmente las operaciones a realizar).
+ * ¿Qué versión de python está usando?
+  *Python 3.6
+ * ¿Qué versión de numpy está usando?
+  * 1.14
+ * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
+  * 
