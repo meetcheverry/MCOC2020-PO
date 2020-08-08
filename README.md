@@ -39,7 +39,7 @@
 
 # Desempeño MATMUL
 
-![Alt Text](/Figure_1.png)
+![AB_plot_performance](/Figure_1.png)
 
 * ¿Como difiere del gráfico del profesor/ayudante?
  * El el grafico obtenido se puede notar que aumenta mucho mas el tiempo a medida que aumentan las dimensiones de la matriz
@@ -52,4 +52,4 @@
  * ¿Qué versión de numpy está usando?
   * 1.14
  * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
-  *
+  * ![Processor_performance](/proce.png)
