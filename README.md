@@ -52,4 +52,4 @@
  * ¿Qué versión de numpy está usando?
   * 1.14
  * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
-  * 
+  *
