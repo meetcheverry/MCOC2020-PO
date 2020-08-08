@@ -36,3 +36,6 @@
 # Dirección IP (Interna, del router): 192.168.100.1 
 # Dirección IP (Externa, del ISP): 181.43.140.65
 # Proveedor de internet: Entel
+
+# Desempeño MATMUL
+
