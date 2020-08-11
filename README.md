@@ -66,4 +66,4 @@
  * Esto puede deberse a que la galeria numpy utilizada en el caso anterior esta codificaca en c, lo cual es un programa de bajo nivel y mucho mas simple de correr para el procesador, numpy esta diseñada para correr de manera optima provechando al maximo los procesadores. Aumentando de esta manera la velocidad en realizar este tipo de operaciones.
 
  
-![Processor_performance](/proce(2).jpg)
+![Processor_performance](/procesador.jpg)
