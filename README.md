@@ -74,7 +74,7 @@
 
 ![performance_INV(A)](/scipyinv(A).png)
 
-![performance_INV(A)](/scipyINV(overwrite)(A).png)
+![performance_INV(A)](/scipyoverwriteA.png)
  * Se puede notar que scipy(sin overwrite) es inferior a numpy respecto al tiempo requerido para realizar la misma operacion, tambien se puede notar que los resultados son menos consistentes notando que hay diferencias considerables de tiempo entre las corridas.
  * Al comparar los 2 ultimos graficos se puede notar que cuando se utiliza el comando overwrite() vs scipy los tiempos disminuyen de manera considerable estabilizando tambien los resultados, logrando resultados mas consistentes al hacer 10 corridas.
 ![performance_INV(A)](/Single.png)
