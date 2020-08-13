@@ -81,3 +81,5 @@
 ![Memory_INV(A)](/Single.png)
 ![Memory_INV(A)](/DoubleA.png)
 ![Memory_INV(A)](/longdouble.png)
+
+ * Single utiliza numeros de 8 bits y 23 de mantissa, esto hace que utilice poca memoria pero no se lograran resultados tan precisos como cuando se utilizan numeros de mayor bits, en el caso de longdouble y double se utlilizan numero de 11 bits y 52 bits de mantissa lo que nos entregara resultados mas precisos pero con una mayor demanda de memoria.
