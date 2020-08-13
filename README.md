@@ -72,6 +72,6 @@
 
 ![performance_INV(A)](/numpy(invA).png)
 
-![performance INV(A)](/scipy inv(A).png)
+![performance_INV(A)](/scipy inv(A).png)
 
 
