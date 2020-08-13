@@ -70,7 +70,8 @@
 # Entrega 4
 * Diferencias entre scipy.linalg.inv() y numpy.linalg.inv()
 
-![performance_INV(A).png](/numpy(invA))
-![AB_plot_performance](/scipy inv(A).png)
+![performance_INV(A)](/numpy(invA).png)
+
+![performance INV(A)](/scipy inv(A).png)
 
 
