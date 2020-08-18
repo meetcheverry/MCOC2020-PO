@@ -83,3 +83,16 @@
 ![Memory_INV(A)](/longdouble.png)
 
  * Single utiliza numeros de 8 bits y 23 de mantissa, esto hace que utilice poca memoria pero no se lograran resultados tan precisos como cuando se utilizan numeros de mayor bits, en el caso de longdouble y double se utlilizan numero de 11 bits y 52 bits de mantissa lo que nos entregara resultados mas precisos pero con una mayor demanda de memoria.
+# Entrega 6
+* Diferencias agregando los solvers de scipy y sus distintas opciones que apliquen al caso para resolver el sistema de A*x=b (overwrites, tipos de matriz A, etc).
+ 
+![performance)](/Grafico_Entrega6.png)
+
+
+ * Se puede notar que scipy(sin overwrite) es inferior a numpy respecto al tiempo requerido para realizar la misma operacion, tambien se puede notar que los resultados son menos consistentes notando que hay diferencias considerables de tiempo entre las corridas.
+ * Al comparar los 2 ultimos graficos se puede notar que cuando se utiliza el comando overwrite() vs scipy los tiempos disminuyen de manera considerable estabilizando tambien los resultados, logrando resultados mas consistentes al hacer 10 corridas.
+![Memory_INV(A)](/Single.png)
+![Memory_INV(A)](/DoubleA.png)
+![Memory_INV(A)](/longdouble.png)
+
+ * Single utiliza numeros de 8 bits y 23 de mantissa, esto hace que utilice poca memoria pero no se lograran resultados tan precisos como cuando se utilizan numeros de mayor bits, en el caso de longdouble y double se utlilizan numero de 11 bits y 52 bits de mantissa lo que nos entregara resultados mas precisos pero con una mayor demanda de memoria.
