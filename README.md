@@ -89,8 +89,8 @@
 ![performance)](/Grafico_6.png)
 
 
- * Se puede notar que scipy(sin overwrite) es inferior a numpy respecto al tiempo requerido para realizar la misma operacion, tambien se puede notar que los resultados son menos consistentes notando que hay diferencias considerables de tiempo entre las corridas.
- * Al comparar los 2 ultimos graficos se puede notar que cuando se utiliza el comando overwrite() vs scipy los tiempos disminuyen de manera considerable estabilizando tambien los resultados, logrando resultados mas consistentes al hacer 10 corridas.
+ * Se puede notar claramente que el metodo menos eficiente es el creado por mi, es decir, invirtiendo la matriz A y luego multiplicarla con el vector b.
+ * El punto anterior era esperado ya que las funciones de numpy y scipy estan optimizadas en muchos sentidos y escritas en lenguajes de bajo nivel, lo que hace que el computador encuentre mucho mas rapido las funciones utilizadas.
 
-
- * Single utiliza numeros de 8 bits y 23 de mantissa, esto hace que utilice poca memoria pero no se lograran resultados tan precisos como cuando se utilizan numeros de mayor bits, en el caso de longdouble y double se utlilizan numero de 11 bits y 52 bits de mantissa lo que nos entregara resultados mas precisos pero con una mayor demanda de memoria.
+ * Se puede observar en el grafico que los mejores numero los obtuvieron el scipy.linalg.solve(A,b,pos) y scipy.linalg.solve(A,b,pos con ovewrite) sin notar una mayor diferencias entre estos dos metodos.
+ * El programa se corrio con 4 iteraciones de cada metodo y hasta N=8000 ya que en un principio se utilizaron 10 iteraciones con Nmax=10000 y el programa lo detuve luego de 1.5 Horas por tiempo.
