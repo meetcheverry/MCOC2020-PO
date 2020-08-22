@@ -96,7 +96,7 @@
  * El programa se corrio con 4 iteraciones de cada metodo y hasta N=8000 ya que en un principio se utilizaron 10 iteraciones con Nmax=10000 y el programa lo detuve luego de 1.5 Horas por tiempo.
 # Entrega 7
 
-* Complejidad algoritmica de MATMUL
+* COMPLEJIDAD ALGORITMICA DE MATMUL
 
  * Llena
  
@@ -106,10 +106,10 @@
  
 ![PERFORMANCE](/MATMUL_DISPERSA.png)
  
- * Se puede notar que en el caso de la matriz dispersa los timpos de solucion bajan considerablemente, pero los de ensamblado es similar, esto se debe a que se utiliza la matriz llena para generar la matriz dispersa con el comando csr_matrix. 
- * La complejidad asintotica de ensamblado para la matriz llenay dispersa predominaria N^2. Si nos referimos a el tiempo de solucion en el caso de matrices llenas tienen un parecido predominante a N^3. La complejidad de solucion en el caso de matrices dispersas se parece a C.
- * Para matrices llemas se puede notar que para tamaños pequeños el tipo disminuye y luego aumenta de manera constante pareciendose a N^2(ensamblado)y N^3(solucion). En matrices dispersas es mas constante, teniendo variaciones pequeñas al variar el tamaño de la matriz.
- * En los casos Matriz llena (solucion y ensamblado) existe una gran dispersion desde N=0 hasta aprox N=200 donde comienza a ser mas consistente. Para matrices dispersas en general se puede notar mas presicion en las corridas, entre 10 y 100 podria existir una pequeña dispersion de datos pero es minimo.
+  * Se puede notar que en el caso de la matriz dispersa los timpos de solucion bajan considerablemente, pero los de ensamblado es similar, esto se debe a que se utiliza la matriz llena para generar la matriz dispersa con el comando csr_matrix. 
+  * La complejidad asintotica de ensamblado para la matriz llenay dispersa predominaria N^2. Si nos referimos a el tiempo de solucion en el caso de matrices llenas tienen un parecido predominante a N^3. La complejidad de solucion en el caso de matrices dispersas se parece a C.
+  * Para matrices llemas se puede notar que para tamaños pequeños el tipo disminuye y luego aumenta de manera constante pareciendose a N^2(ensamblado)y N^3(solucion). En matrices dispersas es mas constante, teniendo variaciones pequeñas al variar el tamaño de la matriz.
+  * En los casos Matriz llena (solucion y ensamblado) existe una gran dispersion desde N=0 hasta aprox N=200 donde comienza a ser mas consistente. Para matrices dispersas en general se puede notar mas presicion en las corridas, entre 10 y 100 podria existir una pequeña dispersion de datos pero es minimo.
  
 * COMPLEJIDAD ALGORITMICA DE SOLVE
 
@@ -121,15 +121,23 @@
 
 ![PERFORMANCE](/SOLVE_DISPERSA.png)
 
- * Se puede notar que en el caso de la matriz dispersa los timpos de solucion bajan considerablemente, pero los de ensamblado es similar, esto se debe a que se utiliza la matriz llena para generar la matriz dispersa con el comando csr_matrix. 
- * La complejidad asintotica de ensamblado para la matriz llenay dispersa predominaria N^2. Si nos referimos a el tiempo de solucion en el caso de matrices llenas tienen un parecido predominante a N^3. La complejidad de solucion en el caso de matrices dispersas se parece a C.
- * Para matrices llemas se puede notar que para tamaños pequeños el tipo disminuye y luego aumenta de manera constante pareciendose a N^2(ensamblado)y N^3(solucion). En matrices dispersas es mas constante, teniendo variaciones pequeñas al variar el tamaño de la matriz.
- * En los casos Matriz llena (solucion y ensamblado) existe una gran dispersion desde N=0 hasta aprox N=200 donde comienza a ser mas consistente. Para matrices dispersas en general se puede notar mas presicion en las corridas, entre 10 y 100 podria existir una pequeña dispersion de datos pero es minimo.
+  * Se puede notar que en el caso de la matriz dispersa los tiempos de solucion bajan considerablemente, pero los de ensamblado es similar, esto se debe a que se utiliza la matriz llena para generar la matriz dispersa con el comando csr_matrix. 
+  * La complejidad asintotica de ensamblado para la matriz llena y dispersa predominaria N^2. Si nos referimos a el tiempo de solucion en el caso de matrices llenas tienen un parecido predominante a N^3. La complejidad de solucion en el caso de matrices dispersas se parece a C.
+  * Para matrices llemas se puede notar que para tamaños pequeños el tipo disminuye y luego aumenta de manera constante pareciendose a N^2(ensamblado)y N^3(solucion). En matrices dispersas es mas constante, teniendo variaciones pequeñas al variar el tamaño de la matriz.
+  * En los casos Matriz llena (solucion y ensamblado) existe una gran dispersion desde N=0 hasta aprox N=100 donde comienza a ser mas consistente. Para matrices dispersas en general se puede notar mas presicion en las corridas, entre 10 y 100 podria existir una pequeña dispersion de datos pero es minimo.
 
 * Complejidad algoritmica de INV
 
+ * Llena
+ 
 ![PERFORMANCE](/INV_LLENA.png)
+
+
 ![PERFORMANCE](/INV_DISPERSA.png)
 
- * 
- *
+ * Dispersa
+ 
+   * Se puede notar que en el caso de la matriz dispersa los tiempos de solucion bajan considerablemente, pero los de ensamblado es similar, esto se debe  a que se utiliza la matriz llena para generar la matriz dispersa con el comando csr_matrix. 
+   * La complejidad asintotica de ensamblado para la matriz llena y dispersa predominaria N^2. Si nos referimos a el tiempo de solucion en el caso de   matrices llenas tienen un parecido predominante a N^3. La complejidad de solucion en el caso de matrices dispersas se parece a C.
+   * Para matrices llemas se puede notar que para tamaños pequeños el tipo disminuye y luego aumenta de manera constante pareciendose a N^2(ensamblado)y N^3(solucion). En matrices dispersas es mas constante, teniendo variaciones pequeñas al variar el tamaño de la matriz.
+   * En los casos Matriz llena (solucion y ensamblado) existe una gran dispersion desde N=0 hasta aprox N=100 donde comienza a ser mas consistente. Para matrices dispersas en general se puede notar mas presicion en las corridas, entre 10 y 100 podria existir una pequeña dispersion de datos pero es minimo.
