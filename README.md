@@ -95,4 +95,18 @@
  * Se puede observar en el grafico que los mejores numero los obtuvieron el scipy.linalg.solve(A,b,pos) y scipy.linalg.solve(A,b,pos con ovewrite) sin notar una mayor diferencias entre estos dos metodos.
  * El programa se corrio con 4 iteraciones de cada metodo y hasta N=8000 ya que en un principio se utilizaron 10 iteraciones con Nmax=10000 y el programa lo detuve luego de 1.5 Horas por tiempo.
 # Entrega 7
+
 * Complejidad algoritmica de MATMUL
+
+![PERFORMANCE](/MATMUL_LLENA.png)
+![PERFORMANCE](/MATMUL_DISPERSA.png)
+
+* Complejidad algoritmica de SOLVE
+
+![PERFORMANCE](/SOLVER_LLENA.png)
+![PERFORMANCE](/SOLVER_DISPERSA.png)
+
+* Complejidad algoritmica de INV
+
+![PERFORMANCE](/INV_LLENA.png)
+![PERFORMANCE](/INV_DISPERSA.png)
