@@ -146,7 +146,7 @@
    * Para matrices llemas se puede notar que para tamaños pequeños el tipo disminuye y luego aumenta de manera constante pareciendose a N^2(ensamblado)y     N^3(solucion). En matrices dispersas es mas constante, teniendo variaciones pequeñas al variar el tamaño de la matriz.
    * En los casos Matriz llena (solucion y ensamblado) existe una gran dispersion desde N=0 hasta aprox N=500 donde comienza a ser mas consistente. Para     matrices dispersas en general se puede notar una dispersion considerable hasta llegar a un Nv= 10, luego de esto se mantiene una dispersion muy         baja.
 # CODIGO LAPLASIANA
-`def Matriz_Laplaciana(M):
+'def Matriz_Laplaciana(M):
     fila = []
     MatrizA = []
     for i in range(1,M+1):
@@ -166,4 +166,4 @@
 
         MatrizA.append(fila)
         fila=[]
-    return(np.array(MatrizA))`
+    return(np.array(MatrizA))'
